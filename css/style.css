@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+img{
+    max-width: 100%;
+    text-align: right;
+    display: block;
+}
+Body{
+    font-family: 'Outfit', sans-serif;
+}
+a:hover, a{
+    text-decoration: none;
+    /* background: #ff662e; */
+}
+header{
+    background: #222e5e;
+    padding: 20px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    /* background-color: #222e5e; */
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.col-1-2{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.logo{
+    max-width: 15%;
+    flex-basis: 15%;
+}
+.logo a{}
+.logo a img{}
+nav{
+    max-width: 70%;
+    flex-basis: 70%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    /* padding: 20px 20px; */
+    /* margin: 20px 0; */
+}
+nav ul li{
+    /* padding: 20px 20px; */
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    /* text-decoration: none; */
+}
+nav ul li a:hover {}
+.register-btn{
+    
+max-width: 15%;
+    
+flex-basis: 15%;
+    
+text-align: right;
+} 
+.btn{
+    border: 2px solid white;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 6px;
+    /* margin: 16px; */
+}
+
+.btn:hover{
+    background: #ff662e;
+    border: #ff662e;
+}
+
+.banner{
+}
+.banner-content{}
+.banner-content h1{
+    font-size: 2.7em;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -2px;
+}
+.banner-content p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+.btn-reverse{
+    border: 2px solid #ff662e;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background: #ff662e;
+}
+.btn-reverse:hover{
+    background: #00b15f;
+    border: #00b15f;
+}
+
+.banner-img{}
+.banner-img img{}
+
+.box-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{   
+        max-width:17.5% ;
+        flex-basis: 17.5% ;  
+        text-align: center;   
+        }
+.padding-space{
+    padding: 30px;
+}
+.box h2{
+         font-size: 50px;
+         color: #fff;}
+
+.box p{
+    display: block;
+    font-size: 25px;
+    color: #fff;
+}
+.pink{
+    background-color: #ed6a8b;
+}
+
+.yellow{
+    background-color: #faaf3a;
+    }
+.orange{
+    background-color: #ff662e;
+}
+.green{
+    background-color: #00b15f;
+}
+.blue{
+    background-color: #007ef3;
+    flex-basis: 30%;
+    max-width:30%;
+}
+
+
+.features-section{
+    padding: 0px 0;
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.features-element{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-title{
+    text-align: center;
+    margin-bottom: 50;
+}
+.features-title h5{
+     font-size: 18px;
+     letter-spacing:1px;
+     color: #00b15f;
+}
+.features-title h3{
+      font-size: 32px;
+      color: #4d4d4d;
+      margin-bottom: 20px;
+}
+
+.features-title p{
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.5;
+}
+
+
+.feature-box{
+    max-width: 25%;
+    flex-basis: 25%;
+    text-align: center;
+    /* padding: 10px; */
+    display: flex;
+}
+.feature-box-item{
+    box-shadow: 0 0 20px 5px black;
+    
+   
+
+}
+.feature-img{
+}
+.feature-content{
+    margin-top: 10px;
+}
+.feature-content h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-content p{
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 1.5;
+}
+.active-bar{
+
+}
+.green-text{
+    color:#00b15f;
+
+}
+.orange-text{
+    color: #ff662e;
+
+}
+.blue-text{
+    color:  #007ef3;
+
+}
+.yellow-text{
+    color: #faaf3a;
+
+}
+
+.green{
+
+}
+.orange{
+
+}
+.blue{
+
+}
+.yellow{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
